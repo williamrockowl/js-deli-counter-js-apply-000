@@ -12,6 +12,9 @@ function takeANumber(thecurrentLine){
   
  thecurrentLine.push(firstCustomer)
  
+ thecurrentLine = i
+ 
+ 
   
   
   return `Welcome, your ticket number is ` + firstCustomer
