@@ -9,7 +9,8 @@ var katzDeliLine = [];
 function takeANumber(thecurrentLine){
   
   var firstCustomer = 1
-  thecurrentLine.push(thecurrentLine)
+  
+  firstCustomer.push(thecurrentLine)
   
   
   return `Welcome, your ticket number is` + ${}
