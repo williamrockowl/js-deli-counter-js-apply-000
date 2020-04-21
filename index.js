@@ -10,10 +10,11 @@ function takeANumber(thecurrentLine){
   
   var firstCustomer = 1
   
-  firstCustomer.push(thecurrentLine)
+ thecurrentLine.push(firstCustomer)
+ 
   
   
-  return `Welcome, your ticket number is` + ${}
+  return `Welcome, your ticket number is ` + firstCustomer
   
 }
 
