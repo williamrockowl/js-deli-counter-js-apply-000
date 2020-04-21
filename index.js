@@ -1,11 +1,21 @@
 var katzDeliLine = [];
 
-function takeANumber(thecurrentLine, newPerson){
-  thecurrentLine.push(newPerson)
-  return `Welcome, ${newPerson}. You are number ${thecurrentLine.length} in line.`
+// function takeANumber(thecurrentLine, newPerson){
+//   thecurrentLine.push(newPerson)
+//   return `Welcome, ${newPerson}. You are number ${thecurrentLine.length} in line.`
   
+  
+// }
+function takeANumber(thecurrentLine){
+  
+  var firstCustomer = 1
+  thecurrentLine.push(thecurrentLine)
+  
+  
+  return `Welcome, your ticket number is` + ${}
   
 }
+
 
 function nowServing(thecurrentLine){
   if(thecurrentLine.length === 0){
